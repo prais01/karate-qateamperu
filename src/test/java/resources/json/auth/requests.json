@@ -1,0 +1,35 @@
+{
+  "loginRequest": {
+    "email": "#(user)",
+    "password": "#(password)"
+  },
+  "registerRequest": {
+    "email": "#(user)",
+    "password": "#(password)",
+    "nombre": "#(name)",
+    "tipo_usuario_id": "#(userTypeId*1)",
+    "estado": "#(estado*1)"
+  },
+  "createProductRequest": {
+    "codigo": "#(codigo)",
+    "nombre": "#(nombre)",
+    "medida": "#(medida)",
+    "marca": "#(marca)",
+    "categoria": "#(categoria)",
+    "precio": "#(precio + '')",
+    "stock": "#(stock + '')",
+    "estado": "#(estado + '')",
+    "descripcion": "#(descripcion)"
+  },
+  "updateProductRequest": {
+    "codigo": "#(codigo)",
+    "nombre": "#(nombre)",
+    "medida": "#(medida)",
+    "marca": "#(marca)",
+    "categoria": "#(categoria)",
+    "precio": "#(precio + '')",
+    "stock": "#(stock + '')",
+    "estado": "#(estado + '')",
+    "descripcion": "#(descripcion)"
+  }
+}

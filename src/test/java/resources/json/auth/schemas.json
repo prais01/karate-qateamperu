@@ -1,0 +1,43 @@
+{
+  "productResponseSchema": {
+    "codigo": "#string",
+    "nombre": "#string",
+    "medida": "#string",
+    "marca_id": "#number",
+    "categoria_id": "#number",
+    "precio": "#string",
+    "stock": "#string",
+    "estado": "#string",
+    "descripcion": "#string",
+    "updated_at": "#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{6})?Z?$",
+    "created_at": "#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{6})?Z?$",
+    "id": "#number"
+  },
+    "obtenerProductoResponseSchema": {
+      "id": "#number",
+      "codigo": "#string",
+      "nombre": "#string",
+      "medida": "#string",
+      "marca": "#string",
+      "categoria": "#string",
+      "precio": "#string",
+      "stock": "#number",
+      "estado": "#number",
+      "descripcion": "#string"
+    },
+  "consultarProductosResponseSchema": {
+    "data": [
+      {
+        "id": "#number",
+        "codigo": "#string",
+        "nombre": "#string",
+        "precio": "#string",
+        "stock": "#number",
+        "descripcion": "#string",
+        "categoria": "#string",
+        "marca": "#string",
+        "estado": "#number"
+      }
+    ]
+  }
+}
