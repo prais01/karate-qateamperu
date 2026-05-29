@@ -1,3 +1,4 @@
+@productos
 Feature: Casos de prueba productos
 
   Background:

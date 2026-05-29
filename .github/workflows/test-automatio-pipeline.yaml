@@ -1,0 +1,14 @@
+name: Test Automation Pipeline
+on:
+  push:
+    branches:
+        - main
+
+jobs:
+  practica:
+     runs-on: ubuntu-latest
+
+     steps:
+      - name: validar producto
+        run: echo 'Validando producto...'
+
