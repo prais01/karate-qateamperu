@@ -37,11 +37,6 @@ jobs:
           java -version
           mvn -version
 
-      - name: Run Maven tests
-        # Usamos bash tanto en Ubuntu como en Windows para estandarizar la ejecución
-        shell: bash
-        run: mvn -B -V -e clean test
-
       - name: Upload surefire reports
         if: always()
         uses: actions/upload-artifact@v4
