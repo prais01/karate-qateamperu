@@ -9,6 +9,6 @@ jobs:
      runs-on: ubuntu-latest
 
      steps:
-      - name: validar producto
-        run: echo 'Validando producto...'
+      - name: validar examen
+        run: echo 'Validando examen...'
 
